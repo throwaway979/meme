@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wanheda\Console\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Aimbot\Aimbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Aimbot\Autowall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Aimbot\EnginePrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Aimbot\LagComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Animations\VMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\AntiAim\AntiAim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Legit\Legitbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Logs\Logs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Resolver\Resolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Skinchanger\Skinchanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Visuals\ESP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Sounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Menu\controls\controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Menu\Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Menu\TGFCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\SDK\CEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Utils\GlobalVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Utils\Interfaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Utils\Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Utils\NetvarManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\DLLMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Modelchanger\Modelchanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Animations\RebuildSetupbones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Visuals\BulletTracers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Animations\FixAnimations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanheda\Features\Visuals\GrenadePrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Antario\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Console\Console.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Aimbot\Aimbot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Aimbot\Autowall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Aimbot\EnginePrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Aimbot\LagComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Animations\VMT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\AntiAim\AntiAim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Legit\Legitbot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Logs\Logs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Misc\Misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Resolver\Resolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Skinchanger\Skinchanger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Visuals\ESP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Menu\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Menu\TGFCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\bspflags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CClientState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CGlobalVarsBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\ClientClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CModelRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CRCChecksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\CUtlVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\Hitboxes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IBaseClientDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IClientEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IClientEntityList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IClientMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IClientNetworkable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IClientRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IClientThinkable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IClientUnknown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\ICvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IEngineTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IGameEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IInputSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\ISurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\ISurfaceData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IVEngineClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IVModelInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IVRenderView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\KeyValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\PlayerInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\Recv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\VMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\GlobalVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\Interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\NetvarManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\SPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\SRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Utils\XorStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Modelchanger\Modelchanger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IMemAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Animations\RebuildSetupbones.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Visuals\BulletTracers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IVDebugOverlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\IViewRenderBeams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Animations\FixAnimations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Security\XorStrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\SDK\datamap.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanheda\Features\Visuals\GrenadePrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

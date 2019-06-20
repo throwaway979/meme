@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1B8103F7-F793-47B0-9FBE-44EC66BC319D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Antario</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>wanheda</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</IntDir>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);$(ExecutablePath);$(DXSDK_DIR)Utilities\bin\x86</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
+    <TargetName>hvh</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</IntDir>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);$(ExecutablePath);$(DXSDK_DIR)Utilities\bin\x86</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
+    <TargetName>hvh</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Full</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;ANTARIO_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <MapExports>true</MapExports>
+      <AssemblyDebug>true</AssemblyDebug>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;ANTARIO_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <StringPooling>
+      </StringPooling>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>
+      </EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>
+      </RuntimeTypeInfo>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PerUserRedirection>false</PerUserRedirection>
+      <MapExports>true</MapExports>
+      <AssemblyDebug>true</AssemblyDebug>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="wanheda\Console\Console.cpp" />
+    <ClCompile Include="wanheda\Features\Aimbot\EnginePrediction.cpp" />
+    <ClCompile Include="wanheda\Features\Aimbot\Aimbot.cpp" />
+    <ClCompile Include="wanheda\Features\Aimbot\Autowall.cpp" />
+    <ClCompile Include="wanheda\Features\Aimbot\LagComp.cpp" />
+    <ClCompile Include="wanheda\Features\Animations\FixAnimations.cpp" />
+    <ClCompile Include="wanheda\Features\Animations\RebuildSetupbones.cpp" />
+    <ClCompile Include="wanheda\Features\Animations\VMT.cpp" />
+    <ClCompile Include="wanheda\Features\AntiAim\AntiAim.cpp" />
+    <ClCompile Include="wanheda\Features\Legit\Legitbot.cpp" />
+    <ClCompile Include="wanheda\Features\Logs\Logs.cpp" />
+    <ClCompile Include="wanheda\Features\Modelchanger\Modelchanger.cpp" />
+    <ClCompile Include="wanheda\Features\Resolver\Resolver.cpp" />
+    <ClCompile Include="wanheda\Features\Skinchanger\Skinchanger.cpp" />
+    <ClCompile Include="wanheda\Features\Sounds.cpp" />
+    <ClCompile Include="wanheda\Features\Visuals\BulletTracers.cpp" />
+    <ClCompile Include="wanheda\Features\Visuals\GrenadePrediction.cpp" />
+    <ClCompile Include="wanheda\Hooks.cpp" />
+    <ClCompile Include="wanheda\DLLMain.cpp" />
+    <ClCompile Include="wanheda\Menu\controls\controls.cpp" />
+    <ClCompile Include="wanheda\Menu\Menu.cpp" />
+    <ClCompile Include="wanheda\Menu\TGFCfg.cpp" />
+    <ClCompile Include="wanheda\SDK\CEntity.cpp" />
+    <ClCompile Include="wanheda\Utils\GlobalVars.cpp" />
+    <ClCompile Include="wanheda\Utils\Interfaces.cpp" />
+    <ClCompile Include="wanheda\Utils\Math.cpp" />
+    <ClCompile Include="wanheda\Utils\NetvarManager.cpp" />
+    <ClCompile Include="wanheda\Features\Visuals\ESP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wanheda\Console\Console.hpp" />
+    <ClInclude Include="wanheda\Features\Aimbot\Aimbot.h" />
+    <ClInclude Include="wanheda\Features\Aimbot\Autowall.h" />
+    <ClInclude Include="wanheda\Features\Aimbot\EnginePrediction.h" />
+    <ClInclude Include="wanheda\Features\Aimbot\LagComp.h" />
+    <ClInclude Include="wanheda\Features\Animations\FixAnimations.h" />
+    <ClInclude Include="wanheda\Features\Animations\RebuildSetupbones.h" />
+    <ClInclude Include="wanheda\Features\Animations\VMT.h" />
+    <ClInclude Include="wanheda\Features\AntiAim\AntiAim.h" />
+    <ClInclude Include="wanheda\Features\Features.h" />
+    <ClInclude Include="wanheda\Features\Legit\Legitbot.h" />
+    <ClInclude Include="wanheda\Features\Logs\Logs.h" />
+    <ClInclude Include="wanheda\Features\Misc\Misc.h" />
+    <ClInclude Include="wanheda\Features\Modelchanger\Modelchanger.h" />
+    <ClInclude Include="wanheda\Features\Resolver\Resolver.h" />
+    <ClInclude Include="wanheda\Features\Skinchanger\Skinchanger.h" />
+    <ClInclude Include="wanheda\Features\Sounds.h" />
+    <ClInclude Include="wanheda\Features\Visuals\BulletTracers.h" />
+    <ClInclude Include="wanheda\Features\Visuals\GrenadePrediction.h" />
+    <ClInclude Include="wanheda\Hooks.h" />
+    <ClInclude Include="Antario\Menu.h" />
+    <ClInclude Include="wanheda\Menu\Menu.h" />
+    <ClInclude Include="wanheda\Menu\TGFCfg.h" />
+    <ClInclude Include="wanheda\SDK\bspflags.h" />
+    <ClInclude Include="wanheda\SDK\CClientState.h" />
+    <ClInclude Include="wanheda\SDK\CGlobalVarsBase.h" />
+    <ClInclude Include="wanheda\SDK\CHandle.h" />
+    <ClInclude Include="wanheda\SDK\CEntity.h" />
+    <ClInclude Include="wanheda\SDK\CInput.h" />
+    <ClInclude Include="wanheda\SDK\ClientClass.h" />
+    <ClInclude Include="wanheda\SDK\CModelRender.h" />
+    <ClInclude Include="wanheda\SDK\CRCChecksum.h" />
+    <ClInclude Include="wanheda\SDK\CUtlVector.h" />
+    <ClInclude Include="wanheda\SDK\datamap.hpp" />
+    <ClInclude Include="wanheda\SDK\Hitboxes.h" />
+    <ClInclude Include="wanheda\SDK\ICvar.h" />
+    <ClInclude Include="wanheda\SDK\IEngineTrace.h" />
+    <ClInclude Include="wanheda\SDK\IInputSystem.h" />
+    <ClInclude Include="wanheda\SDK\IMaterial.h" />
+    <ClInclude Include="wanheda\SDK\IMemAlloc.h" />
+    <ClInclude Include="wanheda\SDK\ISurface.h" />
+    <ClInclude Include="wanheda\SDK\ISurfaceData.h" />
+    <ClInclude Include="wanheda\SDK\IVDebugOverlay.h" />
+    <ClInclude Include="wanheda\SDK\IViewRenderBeams.h" />
+    <ClInclude Include="wanheda\SDK\IVModelInfo.h" />
+    <ClInclude Include="wanheda\SDK\IVRenderView.h" />
+    <ClInclude Include="wanheda\Security\XorStrings.h" />
+    <ClInclude Include="wanheda\Utils\Color.h" />
+    <ClInclude Include="wanheda\SDK\CPrediction.h" />
+    <ClInclude Include="wanheda\SDK\Definitions.h" />
+    <ClInclude Include="wanheda\SDK\IBaseClientDll.h" />
+    <ClInclude Include="wanheda\SDK\IClientEntity.h" />
+    <ClInclude Include="wanheda\SDK\IClientEntityList.h" />
+    <ClInclude Include="wanheda\SDK\IClientMode.h" />
+    <ClInclude Include="wanheda\SDK\IClientNetworkable.h" />
+    <ClInclude Include="wanheda\SDK\IClientRenderable.h" />
+    <ClInclude Include="wanheda\SDK\IClientThinkable.h" />
+    <ClInclude Include="wanheda\SDK\IClientUnknown.h" />
+    <ClInclude Include="wanheda\SDK\IGameEvent.h" />
+    <ClInclude Include="wanheda\SDK\IVEngineClient.h" />
+    <ClInclude Include="wanheda\SDK\KeyValues.h" />
+    <ClInclude Include="wanheda\SDK\PlayerInfo.h" />
+    <ClInclude Include="wanheda\Utils\GlobalVars.h" />
+    <ClInclude Include="wanheda\Utils\Interfaces.h" />
+    <ClInclude Include="wanheda\SDK\Recv.h" />
+    <ClInclude Include="wanheda\SDK\Vector.h" />
+    <ClInclude Include="wanheda\SDK\VMatrix.h" />
+    <ClInclude Include="wanheda\Utils\Math.h" />
+    <ClInclude Include="wanheda\Utils\NetvarManager.h" />
+    <ClInclude Include="wanheda\Utils\SPoint.h" />
+    <ClInclude Include="wanheda\Utils\SRect.h" />
+    <ClInclude Include="wanheda\Utils\Utils.h" />
+    <ClInclude Include="wanheda\Features\Visuals\ESP.h" />
+    <ClInclude Include="wanheda\Utils\XorStr.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
