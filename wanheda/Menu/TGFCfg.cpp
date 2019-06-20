@@ -247,7 +247,7 @@ void CConfig::SetupValue( bool* value, bool def, int size, std::string name ) //
 	}
 }
 
-static char name[ ] = "0xWANHEDA";
+static char name[ ] = "redactedhack";
 
 void CConfig::Save( int config_number )
 {
@@ -256,8 +256,8 @@ void CConfig::Save( int config_number )
 
 	if ( SUCCEEDED( SHGetFolderPath( NULL, CSIDL_APPDATA, NULL, 0, path ) ) )
 	{
-		folder = std::string( path ) + "\\wanheda\\";
-		file = std::string( path ) + "\\wanheda\\config" + std::to_string( config_number ) + ".wanheda";
+		folder = std::string( path ) + "\\redactedhack\\";
+		file = std::string( path ) + "\\redactedhack\\config" + std::to_string( config_number ) + ".redactedhack";
 	}
 
 	CreateDirectory( folder.c_str( ), NULL );
@@ -279,8 +279,8 @@ void CConfig::Load( int config_number )
 
 	if ( SUCCEEDED( SHGetFolderPath( NULL, CSIDL_APPDATA, NULL, 0, path ) ) )
 	{
-		folder = std::string( path ) + "\\wanheda\\";
-		file = std::string( path ) + "\\wanheda\\config" + std::to_string( config_number ) + ".wanheda";
+		folder = std::string( path ) + "\\redactedhack\\";
+		file = std::string( path ) + "\\redactedhack\\config" + std::to_string( config_number ) + ".redactedhack";
 	}
 
 	CreateDirectory( folder.c_str( ), NULL );
