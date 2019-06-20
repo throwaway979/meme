@@ -140,7 +140,7 @@ void Hooks::Init( )
 	g_pSurface->SetFontGlyphSet( g::fonts::menu_font, "Open Sans", 19, 0, 0, 0, FONTFLAG_DROPSHADOW | FONTFLAG_ANTIALIAS );
 	g_pSurface->SetFontGlyphSet( g::fonts::watermark_font, "Small Fonts", 9, 400, 0, 0, FONTFLAG_DROPSHADOW );
 	g_pSurface->SetFontGlyphSet( g::fonts::watermark2_font, "Verdana", 12, 0, 0, 0, FONTFLAG_NONE );
-	g_pSurface->SetFontGlyphSet( g::fonts::tab_font, "Wanheda Font", 34, 0, 0, 0, FONTFLAG_ANTIALIAS );
+	g_pSurface->SetFontGlyphSet( g::fonts::tab_font, "redactedhack font", 34, 0, 0, 0, FONTFLAG_ANTIALIAS );
 	g_pSurface->SetFontGlyphSet( g::fonts::flags_font, "Verdana", 32, 700, 0, 0, FONTFLAG_ANTIALIAS | FONTFLAG_DROPSHADOW );
 	g_pSurface->SetFontGlyphSet( g::fonts::weapon_icons_font, "Counter-Strike", 24, 0, 0, 0, FONTFLAG_ANTIALIAS | FONTFLAG_DROPSHADOW );
 	g_pSurface->SetFontGlyphSet( g::fonts::manual_antiaim_font, "find_another_font_poopoohead", 42, 0, 0, 0, FONTFLAG_ANTIALIAS  );
