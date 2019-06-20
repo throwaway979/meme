@@ -314,6 +314,10 @@ public:
 
 	void DrawT( int X, int Y, Color Color, int Font, bool Center, const char* _Input, ... )
 	{
+		/*want to draw text? sucks for you*/
+		/*actually i'm not that mean, so here you go, have fun memory leaking*/
+		
+		/*stock stickrpg*/
 		int apple = 0;
 		char Buffer[ 2048 ] = { '\0' };
 		va_list Args;
