@@ -237,7 +237,7 @@ public:
 		if (!g_pEngine->IsConnected() || !g_pEngine->IsInGame()) return;
 		if (!g_Menu.Config.Clantag) return;
 
-		static std::string cur_clantag = XorStr(" wanheda ");
+		static std::string cur_clantag = XorStr(" redactedhack ");
 		static float oldtime;
 
 		if (g_pGlobalVars->curtime - oldtime >= 0.5f)
@@ -245,7 +245,7 @@ public:
 			std::string temp = (std::string&)cur_clantag;
 			cur_clantag.erase(0, 1);
 			cur_clantag += temp[0];
-			set_clantag(cur_clantag.c_str(), XorStr("wanheda"));
+			set_clantag(cur_clantag.c_str(), XorStr("redactedhack"));
 			oldtime = g_pGlobalVars->curtime;
 		}
 	}
