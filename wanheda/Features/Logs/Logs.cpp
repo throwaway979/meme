@@ -86,11 +86,11 @@ void Logs::OnFireEvent( int entity_index, int damage_dealt, std::string hitgroup
 
 	if ( remaining_health <= 0 ) {
 		logs.push_back(log_thing("killed " + (info.fakeplayer ? "[bot] " + sanitized_name : sanitized_name) + ". shot dealt " + std::to_string(damage_dealt) + " damage. (hit in " + hitgroup + ")", Color(255, 35, 35, 255), 50));
-		g_pEngine->ExecuteClientCmd(std::string("\n\necho [wanheda log]: killed " + (info.fakeplayer ? "[bot] " + sanitized_name : sanitized_name) + ". shot dealt " + std::to_string(damage_dealt) + " damage. (hit in " + hitgroup + ")\n").c_str());
+		g_pEngine->ExecuteClientCmd(std::string("\n\necho [redactedhack log]: killed " + (info.fakeplayer ? "[bot] " + sanitized_name : sanitized_name) + ". shot dealt " + std::to_string(damage_dealt) + " damage. (hit in " + hitgroup + ")\n").c_str());
 	}
 	else if ( remaining_health > 0 ) {
 		logs.push_back(log_thing("shot " + (info.fakeplayer ? "[bot] " + sanitized_name : sanitized_name) + " for " + std::to_string(damage_dealt) + " damage. (hit in " + hitgroup + ")", Color(0, 166, 255, 255), 50));
-		g_pEngine->ExecuteClientCmd(std::string("\n\necho [wanheda log]: shot " + (info.fakeplayer ? "[bot] " + sanitized_name : sanitized_name) + " for " + std::to_string(damage_dealt) + " damage. (hit in " + hitgroup + ")\n").c_str());
+		g_pEngine->ExecuteClientCmd(std::string("\n\necho [redactedhack log]: shot " + (info.fakeplayer ? "[bot] " + sanitized_name : sanitized_name) + " for " + std::to_string(damage_dealt) + " damage. (hit in " + hitgroup + ")\n").c_str());
 	}
 }
 
