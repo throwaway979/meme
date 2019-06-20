@@ -357,7 +357,7 @@ void c_menu::draw( ) {
 		g_pSurface->FilledRect( _pos.x + 10, _pos.y + 20, _width - 20, _height - 30, Color( 42, 42, 42, 255 ) );
 		g_pSurface->FilledRect( _pos.x + 10, _pos.y + 20, _width - 20, 25, Color( 32, 32, 32, 255 ) );
 		g_pSurface->OutlinedRect( _pos.x + 9, _pos.y + 19, _width - 18, _height - 28, Color( 32, 32, 32, 255 / 2 ) );
-		g_pSurface->DrawT( _pos.x + ( _width / 2 ), _pos.y + 1, Color( 255, 255, 255 ), g::fonts::menu_font, true, "Wanheda Self-Leak - Sorry" );
+		g_pSurface->DrawT( _pos.x + ( _width / 2 ), _pos.y + 1, Color( 255, 255, 255 ), g::fonts::menu_font, true, "redactedhack Self-Leak - Sorry" );
 		for ( int i = 0; i < tab_amount; i++ )
 		{
 			RECT text_size = g_pSurface->GetTextSizeRect( g::fonts::menu_font, tab_names[ i ].c_str( ) );
@@ -554,7 +554,7 @@ void c_menu::draw( ) {
 		//checkbox( "wasd movement", &Config.WASDMovement, "strafes for you automatically" );
 		checkbox( "Auto Strafe", &Config.AutoStrafe, "strafe automatically" );
 		checkbox( "Fast Duck", &Config.InfinityDuck, "remove ducking/crouching delay" );
-		checkbox( "Clantag Changer", &Config.Clantag, "change your clantag to wanheda dot redacted" );
+		checkbox( "Clantag Changer", &Config.Clantag, "change your clantag to redactedhack" );
 		checkbox( "Logs", &Config.Logs, "show useful logs in the top left of your screen" );
 		checkbox( "Remove Fakelag Limit", &Config.RemoveFakelagLimit, "remove fakelag limit" );
 		checkbox( "Viewmodel Offset Adjustment", &Config.ViewmodelAdjust, "change your viewmodel offset position to a custom one" );
